@@ -1,0 +1,4 @@
+from DNAtoolkit import *
+
+rndDNAStr = "AATTTTGGGCTACTG"
+print(validateSeq(rndDNAStr)) 

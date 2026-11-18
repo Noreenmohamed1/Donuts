@@ -1,0 +1,426 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Donuts</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+</head>
+<body>
+
+    <!-- Header -->
+
+    <header>
+
+        <!-- First Navbar -->
+
+        <nav class="navbar">
+
+            <div class="logo">
+                <h2>🍩 Sweet Circles</h2>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Techniques</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Find Us</a></li>
+            </ul>
+
+           <div class="nav-icons">
+<a href="cart.html" class="cart">
+    🛒
+    <span class="cart-count">0</span>
+</a>
+<a href="login.html" class="login">Login</a>
+
+<a href="register.html" class="register">Register</a>
+</div>
+
+        </nav>
+
+
+        <!-- Second Navbar -->
+
+        <div class="search-section">
+
+            <select id="category">
+                <option value="All">All Categories</option>
+                <option value="donuts">Donuts</option>
+                <option value="cakes">Cakes</option>
+                <option value="Coffee">Coffee</option>
+                <option value="Cookies">Cookies</option>
+            </select>
+
+            <input type="text" id="searchInput" placeholder="Search for your favorite sweets...">
+
+            <button id="searchBtn">Search</button>
+
+        </div>
+
+    </header>
+
+    <!-- Hero Section -->
+
+<section class="hero">
+
+    <h1>SWEET CIRCLES</h1>
+
+    <div class="hero-content">
+
+        <!-- Left Content -->
+
+        <div class="left-content">
+
+            <h2>Paris</h2>
+
+            <p>
+                Freshly baked happiness,
+                made with love and the finest ingredients.
+            </p>
+
+            <a href="#">Find Our Stores →</a>
+
+        </div>
+
+
+        <!-- Right Content -->
+
+        <div class="right-content">
+
+            <div class="product-info">
+                <h3>Jam Session</h3>
+                <p>Juicy strawberries</p>
+            </div>
+
+            <div class="product-info">
+                <h3>Dark Kiss</h3>
+                <p>Melting chocolate</p>
+            </div>
+
+            <div class="product-info">
+                <h3>From $18</h3>
+                <p>King Size Box</p>
+            </div>
+
+        </div>
+
+    </div>
+<!-- Donut Buttons -->
+<div class="bottom-images">
+
+    <button class="donut-btn image-one"></button>
+
+    <button class="donut-btn image-two"></button>
+
+    <button class="donut-btn image-three"></button>
+
+</div>
+
+<section class="products" id="donuts">
+<h2>OUR DONUTS</h2>
+<p class="products-desc">A little sweetness in every bite!</p>
+
+<div class="product-container">
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img donut-one"></div>
+        <h3>Strawberry Donut</h3>
+        <p class="price">$12.00</p>
+        <button class="cart-btn" data-name="Strawberry Donut" data-price="12" data-image="photos/donut1.jpg">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img donut-two"></div>
+        <h3>Chocolate Donut</h3>
+        <p class="price">$15.00</p>
+        <button class="cart-btn" data-name="Chocolate Donut" data-price="15" data-image="photos/donut2.jpg">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img donut-three"></div>
+        <h3>Oreo Donut</h3>
+        <p class="price">$14.00</p>
+       <button class="cart-btn" data-name="Oreo Donut" data-price="14" data-image="photos/donut3.jpg">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img donut-four"></div>
+        <h3>Lotus Donut</h3>
+        <p class="price">$16.00</p>
+       <button class="cart-btn" data-name="Lotus Donut" data-price="16" data-image="photos/donut4.jpg">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img donut-five"></div>
+        <h3>Vanilla Donut</h3>
+        <p class="price">$10.00</p>
+        <button class="cart-btn" data-name="Vanilla Donut" data-price="10" data-image="photos/donut5.jpg">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img donut-six"></div>
+        <h3>Caramel Donut</h3>
+        <p class="price">$18.00</p>
+       <button class="cart-btn" data-name="Caramel Donut" data-price="18" data-image="photos/donut6.jpg">
+    Add to Cart
+</button>
+    </div>
+
+</div>
+</section>
+
+<section class="products cakes-section" id="cakes">
+<h2>OUR CAKES</h2>
+<p class="products-desc">Happiness is a slice of cake!</p>
+
+<div class="product-container">
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img cake-one"></div>
+        <h3>Chocolate Cake</h3>
+        <p class="price">$25.00</p>
+        <button class="cart-btn" data-name="chocolate cake" data-price="25" data-image="photos/cake1.jpg">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img cake-two"></div>
+        <h3>Red Velvet Cake</h3>
+        <p class="price">$28.00</p>
+        <button class="cart-btn" data-name="Red Velvet cake" data-price="28"  data-image="photos/cake2.jpg">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img cake-three"></div>
+        <h3>Cheesecake</h3>
+        <p class="price">$22.00</p>
+        <button class="cart-btn" data-name="Cheesecake" data-price="22"  data-image="photos/cake3.jpg">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img cake-four"></div>
+        <h3>Strawberry Cake</h3>
+        <p class="price">$30.00</p>
+       <button class="cart-btn" data-name="Strawberry cake" data-price="30"  data-image="photos/cake4.jpg">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img cake-five"></div>
+        <h3>Lotus Cake</h3>
+        <p class="price">$27.00</p>
+        <button class="cart-btn" data-name="Lotus cake" data-price="27"  data-image="photos/cake5.jpg">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img cake-six"></div>
+        <h3>Vanilla Cake</h3>
+        <p class="price">$24.00</p>
+        <button class="cart-btn" data-name="Vanilla cake" data-price="24"  data-image="photos/cake6.jpg">
+    Add to Cart
+</button>
+    </div>
+
+</div>
+</section>
+
+<section class="products coffee-section" id="coffee">
+<h2>OUR COFFEE</h2>
+<p class="products-desc">A perfect cup for every moment!</p>
+
+<div class="product-container">
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img coffee-one"></div>
+        <h3>Espresso</h3>
+        <p class="price">$10.00</p>
+        <button class="cart-btn" data-name="Espresso" data-price="10"  data-image="photos/1.jpg">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img coffee-two"></div>
+        <h3>Cappuccino</h3>
+        <p class="price">$15.00</p>
+        <button class="cart-btn" data-name="Cappuccino" data-price="15" data-image="photos/2.jpg">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img coffee-three"></div>
+        <h3>Latte</h3>
+        <p class="price">$14.00</p>
+         <button class="cart-btn" data-name="Latte" data-price="14" data-image="photos/3.jpg">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img coffee-four"></div>
+        <h3>Mocha</h3>
+        <p class="price">$17.00</p>
+         <button class="cart-btn" data-name="Mocha" data-price="17" data-image="photos/4.jpg">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img coffee-five"></div>
+        <h3>Iced Coffee</h3>
+        <p class="price">$16.00</p>
+         <button class="cart-btn" data-name="iced coffee" data-price="16" data-image="photos/5.jpg">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img coffee-six"></div>
+        <h3>Caramel Macchiato</h3>
+        <p class="price">$20.00</p>
+         <button class="cart-btn" data-name="Caramel Macchiato" data-price="20" data-image="photos/6.jpg">
+    Add to Cart
+</button>
+    </div>
+
+</div>
+</section>
+
+<section class="products cookies-section" id="cookies">
+<h2>OUR COOKIES</h2>
+<p class="products-desc">Freshly baked with love!</p>
+
+<div class="product-container">
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img cookie-one"></div>
+        <h3>Chocolate Chip Cookies</h3>
+        <p class="price">$8.00</p>
+         <button class="cart-btn" data-name="chocolate Chip Cookies" data-price="8" data-image="photos/cookies1.jpg">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img cookie-two"></div>
+        <h3>Oreo Cookies</h3>
+        <p class="price">$10.00</p>
+         <button class="cart-btn" data-name="Oreo Cookies" data-price="10" data-image="photos/cookies2.jpg">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img cookie-three"></div>
+        <h3>Double Chocolate Cookies</h3>
+        <p class="price">$12.00</p>
+          <button class="cart-btn" data-name="Double Chocolate cookies" data-price="12" data-image="photos/cookies3.jpg">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img cookie-four"></div>
+        <h3>Red Velvet Cookies</h3>
+        <p class="price">$11.00</p>
+         <button class="cart-btn" data-name="Red Velvet Cookies" data-price="11" data-image="photos/cookies4.jpg">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img cookie-five"></div>
+        <h3>Lotus Cookies</h3>
+        <p class="price">$13.00</p>
+       <button class="cart-btn" data-name="Lotus Cookies" data-price="13" data-image="photos/cookies5.jpg">
+    Add to Cart
+</button>
+    </div>
+
+    <div class="product-card">
+        <button class="favorite">♡</button>
+        <div class="product-img cookie-six"></div>
+        <h3>Vanilla Cookies</h3>
+        <p class="price">$9.00</p>
+          <button class="cart-btn" data-name="Vanilla Cookies" data-price="9" data-image="photos/cookies6.jpg">
+    Add to Cart
+</button>
+    </div>
+
+</div>
+</section>
+
+
+
+
+    <script src="js/script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
